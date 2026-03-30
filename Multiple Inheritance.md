@@ -1,4 +1,4 @@
-# Exp.No:5e  
+ # Exp.No:5e  
 ## Multiple Inheritance
 
 ---
@@ -10,6 +10,23 @@ To write a Python program to get the name, attendance, and ID of a student and c
 
 ### ALGORITHM
 
+1. Define the `Student` class.
+2. Inside the `Student` class, define the `__init__` method (constructor). The `__init__` method accepts two parameters: `name` and `student_id`.
+    - Inside the `__init__` method: Assign the value of `name` to `self.name` and `student_id` to `self.student_id`.
+3. Define the `get_student_info` method inside the `Student` class:
+    - This method should return a string formatted with `self.name` and `self.student_id`.
+4. Define the `Attendance` class, which inherits from the `Student` class.and const# Exp.No:5e  
+## Multiple Inheritance
+
+---
+
+### AIM  
+To write a Python program to get the name, attendance, and ID of a student and check if they are eligible for the next module using multiple inheritance. If attendance > 80, the student is eligible; otherwise, not eligible.
+
+---
+
+### ALGORITHM
+ructor)
 1. Define the `Student` class.
 2. Inside the `Student` class, define the `__init__` method (constructor). The `__init__` method accepts two parameters: `name` and `student_id`.
     - Inside the `__init__` method: Assign the value of `name` to `self.name` and `student_id` to `self.student_id`.
